@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    padding: 50px 0;
+}
+
+/* ==================== header =================== */
+
+.header{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header__logo{
+    width: 120px;
+    margin: 0 auto;
+}
+
+.nav__list{
+    height: 30px;
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 50px;
+}
+
+.nav__list_item_text{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: #bab9b9;    
+}
+
+.nav__list_item_text:hover{
+    color: #4581b7;    
+    border-bottom: 1px solid #4581b7;
+}
+
+.header__content{                            
+    width: 1110px;
+    height: 450px;
+    margin: 0 auto;
+    background: url(../img/bg.png);
+    background-position: center;
+    background-size: 100% 100%;
+    transition: 1s;
+}
+
+.header__content:hover{
+    background-size: 110% 110%;
+}
+
+/* ==================== /header =================== */
+
+/* ======================= main ===================== */
+.main__content{
+    margin: 30px auto;
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_panel{
+    width: 595px;
+    padding: 50px 95px 60px 40px;
+    background: #f0f0f0;
+}
+
+.left_panel_title, .right_panel_title{
+    color: #4581b7;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.left_panel_text, .right_panel_text, .footer_contact_title{
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.right_panel{
+    width: 257px;
+    padding: 50px 55px 187px 40px;
+    background: #f0f0f0;
+}
+
+.right_panel_tel{
+    margin: 50px 0;
+}
+
+/* ======================= /main ===================== */
+
+/* ======================= footer ===================== */
+
+.footer{
+    width: 1110px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin: 15px 40px;
+}
+
+.footer_contact_text{
+    color: #808080;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* ======================= /footer ===================== */
